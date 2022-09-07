@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Products from './components/Products'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
         <Products img="https://cly.1cdn.vn/2022/07/12/screenshot-2022-07-1.jpeg" title="Apple Watch Series 7" />
         <Products img="https://cly.1cdn.vn/2022/07/12/screenshot-2022-07-1.jpeg" title="Apple Watch Series 7" />
       </div>
+
+      <Footer />
     </div>
   );
 }
